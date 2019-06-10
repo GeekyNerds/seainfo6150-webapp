@@ -1,0 +1,5 @@
+.list {
+    list-style: none;
+    background-color: grey;
+    border: dashed 1px rgb(60, 60, 60);
+}

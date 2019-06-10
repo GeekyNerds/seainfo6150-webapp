@@ -1,0 +1,23 @@
+.item {
+    border: solid 1px red;
+    margin: 40px 40px 40px 0px;
+    background-color: white;
+}
+
+.title {
+    color: red;
+    margin: 10px
+}
+
+.paragraph {
+    margin: 10px;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.section {
+    text-align: right;
+    margin: 40px 10px 15px 0px;
+}
