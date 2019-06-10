@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Article = () => (
+const Article = ({ article }) => (
   <article>
-      <h2>You can take a pie on a plane<br/></h2>
-      <address>By: Cathryn Lindsey<br/></address>
-      <time dateTime="2018-11-21 22:57:55">Wed, 21 Nov 2018 22:57:55 GMT</time><br/>
+      <h2>{article.title}<br/></h2>
+      <address>By: {article.author}<br/></address>
+      <time dateTime={article.pubYear}>{article.pubDate}</time><br/>
       <p>
-        Getting excited to eat your mother's roast turkey, your uncle's stuffing and your sister's famous green bean casserole?
+        {article.shortText}
       </p>
   </article>
 );

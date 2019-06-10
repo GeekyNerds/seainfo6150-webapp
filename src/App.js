@@ -5,7 +5,7 @@ import Article from './Article.js'
 const App = ({ article }) => {
   return (
     <div className="App">
-      <Article />
+      <Article article={article}/>
     </div>
   );
 }
