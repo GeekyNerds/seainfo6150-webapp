@@ -5,7 +5,7 @@ import App from "./App";
 import Demo from "./Demo";
 import articles from "./data/articles.json";
 
-const querystring = window.location.search || "";
+const querystring = window.location.search || '';
 
 if (querystring.toLowerCase() === "?demo=true") {
   ReactDOM.render(<Demo />, document.getElementById("root"));

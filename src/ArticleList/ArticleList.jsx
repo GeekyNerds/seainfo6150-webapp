@@ -13,7 +13,8 @@ const ArticleList = ({ articles }) => (
           date={article.pubDate} 
           year={article.pubYear} 
           author={article.author} 
-          shortText={article.shortText} />
+          shortText={article.shortText}
+          url={article.image._url} />
       })
     }
   </ul>
