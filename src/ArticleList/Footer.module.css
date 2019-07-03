@@ -1,0 +1,16 @@
+#flex1 {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+  .flex_container {
+    display: flex;
+    background-color: red;
+    height: 5rem;
+  }
+
+  .addr {
+      color: white;
+      font-size: .6rem;
+      margin: .6rem;
+  }

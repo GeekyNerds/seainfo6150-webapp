@@ -1,19 +1,19 @@
 import React from 'react';
-import ArticleListItem from './ArticleListItem'
-import styles from './ArticleList.module.css'
+import ArticleGridItem from './ArticleGridItem'
+import styles from './ArticleGrid.module.css'
 import Header from './Header';
 import Footer from './Footer';
 
 
-const ArticleList = ({ articles }) => (
+const ArticleGrid = ({ articles }) => (
   <div>
   <Header />
-  <ul className={styles.list}>
+  <div id={styles.grid1} className={styles.grid_container}>
     {
       // this iterates through the articles JSON and
-      // calls your ArticleListItem component for each article object
+      // calls your Item component for each article object
       Object.values(articles).map(article => {
-          return <ArticleListItem
+          return <ArticleGridItem
           title={article.title} 
           date={article.pubDate} 
           year={article.pubYear} 
@@ -22,9 +22,9 @@ const ArticleList = ({ articles }) => (
           url={article.image._url} />
       })
     }
-  </ul>
+  </div>
   <Footer />
   </div>
 );
 
-export default ArticleList;
+export default ArticleGrid;

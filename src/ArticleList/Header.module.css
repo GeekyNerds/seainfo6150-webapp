@@ -1,0 +1,22 @@
+  #flex1 {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex_container {
+    display: flex;
+    background-color: red;
+    height: 5rem;
+  }
+  
+  #header {
+    color: white;
+    margin-left: .6rem;
+  }
+
+  #time {
+    color: white;
+    margin-right: .6rem;
+    font-size: .6rem;
+  }

@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ArticleList from "./ArticleList/ArticleList";
+import ArticleGrid from "./ArticleList/ArticleGrid";
 
 const App = ({ articles }) => {
   return <div className="App">
-    <ArticleList articles={articles}/>
+    <ArticleGrid articles={articles}/>
+    {/* <ArticleList articles={articles}/> */}
   </div>;
 };
 
