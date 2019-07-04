@@ -1,21 +1,13 @@
 .item {
-    border: solid 1px red;
-    /* margin: 40px 40px 40px 0px; */
-    /* width: 20rem; */
-    /* height: 20rem; */
+    border: solid .1rem red;
     background-color: white;
-    border-radius: 10px;
     background-image: linear-gradient(to right, rgb(247, 188, 188), white 8%);
-    box-shadow: 0px 10px 10px 0 rgb(112, 110, 110);
+    padding: 1rem;
+    /* box-shadow: 0px 10px 10px 0 rgb(112, 110, 110); */
 }
 
 .title {
     color: red;
-    margin: 10px;
-}
-
-.paragraph {
-    margin: 10px;
 }
 
 .time {
@@ -23,6 +15,5 @@
 }
 
 .section {
-    text-align: right;
-    margin: 30px 10px 15px 0px;
+    margin-top: 2rem;
 }
