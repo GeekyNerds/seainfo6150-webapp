@@ -5,7 +5,6 @@ import ArticleGrid from "./ArticleList/ArticleGrid";
 const App = ({ articles }) => {
   return <div className="App">
     <ArticleGrid articles={articles}/>
-    {/* <ArticleList articles={articles}/> */}
   </div>;
 };
 

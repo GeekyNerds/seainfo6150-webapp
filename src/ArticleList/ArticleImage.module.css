@@ -1,7 +1,6 @@
 .image {
-    width: 10rem;
+    max-width: 90%;
     border: solid .6rem red;
     border-radius: 50%;
     box-shadow: 0 .5rem .5rem 0 rgb(112, 110, 110);
-    /* float: left; */
 }

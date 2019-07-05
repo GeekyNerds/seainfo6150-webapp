@@ -8,7 +8,7 @@ import Footer from './Footer';
 const ArticleGrid = ({ articles }) => (
   <div>
   <Header />
-  <div id={styles.grid1} className={styles.grid_container}>
+  <div className={styles.grid_container}>
     {
       // this iterates through the articles JSON and
       // calls your Item component for each article object
